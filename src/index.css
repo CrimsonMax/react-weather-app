@@ -5,13 +5,15 @@
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  max-width: 100vh;
+  margin: auto;
 }
 
 .app {
   background-image: url("./images/cold.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   transition: 0.4s ease;
 }
 
@@ -91,16 +93,16 @@ main {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   padding: 15px 25px;
-  color: #FFF;
+  color: #fff;
   font-size: 102px;
   font-weight: 900;
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
   text-align: center;
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .weather-container .condition {
-  color: #FFF;
+  color: #fff;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
