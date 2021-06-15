@@ -64,7 +64,7 @@ function App() {
         ) : (
           <>
             <div className="message-container">
-              <div className="location">Выбери свой город</div>
+              <div className="location">Choose Your City!</div>
             </div>
           </>
         )}
